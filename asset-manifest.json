@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.44f8b8b5.css",
-    "main.js": "/static/js/main.0bf6bd4b.js",
-    "static/js/787.147b0cd7.chunk.js": "/static/js/787.147b0cd7.chunk.js",
-    "index.html": "/index.html",
-    "main.44f8b8b5.css.map": "/static/css/main.44f8b8b5.css.map",
-    "main.0bf6bd4b.js.map": "/static/js/main.0bf6bd4b.js.map",
-    "787.147b0cd7.chunk.js.map": "/static/js/787.147b0cd7.chunk.js.map"
+    "main.css": "/BWHS-questionnaire-lookup/static/css/main.44f8b8b5.css",
+    "main.js": "/BWHS-questionnaire-lookup/static/js/main.a81d76e7.js",
+    "static/js/787.147b0cd7.chunk.js": "/BWHS-questionnaire-lookup/static/js/787.147b0cd7.chunk.js",
+    "index.html": "/BWHS-questionnaire-lookup/index.html",
+    "main.44f8b8b5.css.map": "/BWHS-questionnaire-lookup/static/css/main.44f8b8b5.css.map",
+    "main.a81d76e7.js.map": "/BWHS-questionnaire-lookup/static/js/main.a81d76e7.js.map",
+    "787.147b0cd7.chunk.js.map": "/BWHS-questionnaire-lookup/static/js/787.147b0cd7.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44f8b8b5.css",
-    "static/js/main.0bf6bd4b.js"
+    "static/js/main.a81d76e7.js"
   ]
 }
