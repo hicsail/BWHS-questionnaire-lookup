@@ -2,6 +2,7 @@ import {useState, useEffect} from 'react'
 import CategoryDropdown from './components/CategoryDropdown'
 import TopicDropdown from './components/TopicDropdown'
 import ResultTable from './components/ResultTable'
+import TableInfo from './components/TableInfo'
 
 function App() {
   const [data,setData]=useState({});
@@ -67,13 +68,16 @@ function App() {
             />  
           </div>
           <div className='col-md-2'></div>
-        </div>
+        </div>              
         <div className='row'>
         <div className='col-md-2'></div>
         <div className='col-md-8'>
-          <ResultTable 
-              results={results}
+          <TableInfo
+            results={results}
           />
+          <ResultTable 
+            results={results}
+          />                    
         </div>
         <div className='col-md-2'></div>
         </div>
