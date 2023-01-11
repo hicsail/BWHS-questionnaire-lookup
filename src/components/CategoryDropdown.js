@@ -1,9 +1,13 @@
 import Select from 'react-select'
 
-const CategoryDropdown = ({ updateTopics, categories }) => {
+const CategoryDropdown = ({ topic, category, updateCategory, updateTopics, updateResults, categories }) => {
   const onChange = (option) => {    
-    const category = option.value    
-    updateTopics(category) 
+    const category = option.value 
+    updateCategory(category)     
+    updateTopics(category)
+    if (category && topic) {
+      updateResults(category, topic)
+    }
   }
 
   return (
@@ -11,7 +15,8 @@ const CategoryDropdown = ({ updateTopics, categories }) => {
       Select a general category
       <Select        
         options={categories}      
-        onChange={onChange} 
+        onChange={onChange}
+        value={{'value': category, 'label': category}} 
       />
     </label>
   )            

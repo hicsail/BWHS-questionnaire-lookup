@@ -2,7 +2,7 @@ const ResultTable = ({ results }) => {
 
   return (
     results.length > 0 ? (
-      <div style={{'overflow-y': 'auto', 'height': '350px',}}>                            
+      <div style={{'overflowY': 'auto', 'height': '350px',}}>                            
         <table       
           className='table table-bordered table-striped table-hover'
         >
