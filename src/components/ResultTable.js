@@ -8,7 +8,7 @@ const ResultTable = ({ results }) => {
         >
           <thead className='thead-light'>
             <tr>
-              <th>Question #</th>
+              <th>Questionnaire</th>
               <th>page</th>
             </tr>
           </thead>
